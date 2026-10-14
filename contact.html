@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="home_Layout.css">
+</head>
+<body>
+    <div id="container">
+
+        <header>
+            <h1>Contact</h1>
+        </header>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+        <section id="hero">
+            <h1>Hubungi Saya</h1>
+            <p>Silakan isi formulir berikut untuk mengirim pesan.</p>
+        </section>
+
+        <section id="main">
+            <h2>Formulir Kontak</h2>
+
+            <form>
+                <p>
+                    <label for="nama">Nama:</label><br>
+                    <input type="text" id="nama" name="nama"
+                    placeholder="Masukkan nama" required>
+                </p>
+
+                <br>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"
+                    placeholder="Masukkan email" required>
+                </p>
+
+                <br>
+
+                <p>
+                    <label for="pesan">Pesan:</label><br>
+                    <textarea id="pesan" name="pesan"
+                    rows="5" placeholder="Tulis pesan kamu"
+                    required></textarea>
+                </p>
+
+                <br>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 - Praktikum Pemrograman Web</p>
+        </footer>
+
+    </div>
+</body>
+</html>
